@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dataActivity"
+    android:background="@drawable/medbg2">
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="104dp"
+        android:layout_height="96dp"
+        android:layout_marginHorizontal="145dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="158dp"
+        android:src="@drawable/ic_person"
+        />
+
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person"
+        android:layout_marginTop="-100dp"
+        android:text="LogIn"
+        android:textSize="35dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create"
+        android:hint="Username"
+        android:inputType="text" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_below="@id/user"/>
+
+
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="141dp"
+        android:layout_height="67dp"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/transpbutton"
+        android:onClick="Login"
+        android:text="LOG IN"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>

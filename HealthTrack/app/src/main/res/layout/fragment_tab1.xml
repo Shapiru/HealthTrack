@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab1"
+    android:orientation="vertical"
+    android:background="@drawable/medbg">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="PERSONAL DETAILS"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:id="@+id/fill"
+        />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Name"
+        android:id="@+id/name"
+        android:textColor="@color/hpink"
+        android:textColorHint="@color/hpink"
+
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:id="@+id/email"
+        android:textColor="@color/hpink"
+        android:textColorHint="@color/hpink"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="female"
+        android:textColor="@color/colorAccent"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="male"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Country"
+        android:id="@+id/country"
+        android:textColor="@color/hpink"
+        android:textColorHint="@color/hpink"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="married"
+        android:textColor="@color/colorAccent"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="single"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Birthdate"
+        android:id="@+id/birth"
+        android:textColor="@color/hpink"
+        android:textColorHint="@color/hpink"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Age"
+        android:id="@+id/age"
+        android:textColor="@color/hpink"
+        android:textColorHint="@color/hpink"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Location"
+        android:id="@+id/location"
+        android:textColor="@color/hpink"
+        android:textColorHint="@color/hpink"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Town"
+        android:id="@+id/town"
+        android:textColor="@color/hpink"
+        android:textColorHint="@color/hpink"
+        />
+
+
+
+</LinearLayout>
